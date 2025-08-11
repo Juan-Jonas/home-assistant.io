@@ -41,7 +41,7 @@ type:
   type: string
 entities:
   required: true
-  description: "A list of entity IDs or `entity` objects (see below), or an external statistic id"
+  description: "A list of entity IDs or `entity` objects (see below), or an external statistic id (a maximum of 5 entities is allowed)"
   type: list
 days_to_show:
   required: false
